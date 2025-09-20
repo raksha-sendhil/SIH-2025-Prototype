@@ -29,6 +29,7 @@ pip install pandas scikit-learn streamlit
 - prediction          → Generating predictions on new data
 - ui                  → Basic, easy to learn front-end interface, uses basic python code, no HTML/CSS/JS needed
 
+```bash
 ## Repo Structure
 
 SIH-2025_Prototype/
@@ -51,3 +52,4 @@ SIH-2025_Prototype/
 │
 └── README.md                 # Project instructions, workflow, and team info
 
+```
