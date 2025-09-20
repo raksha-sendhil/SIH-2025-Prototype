@@ -21,7 +21,7 @@ The core functionality focuses on **predicting dropout risk** for students based
 - Installation (if needed):
 ```bash
 pip install pandas scikit-learn streamlit
-
+```
 ## Branches
 - main                → Stable branch for approved code
 - data-management     → Data cleaning and preparation
@@ -31,7 +31,7 @@ pip install pandas scikit-learn streamlit
 
 ## Repo Structure
 
-dropout-risk-predictor/
+SIH-2025_Prototype/
 │
 ├── data/                     # Raw and processed datasets
 │   ├── attendance.csv
