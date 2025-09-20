@@ -18,10 +18,8 @@ The core functionality focuses on **predicting dropout risk** for students based
   - `pandas` → data manipulation
   - `scikit-learn` → machine learning model
   - `streamlit` → optional UI (minimal, to show predictions)
-- Installation (if needed):
-```bash
-pip install pandas scikit-learn streamlit
-```
+
+
 ## Branches
 - main                → Stable branch for approved code
 - data-management     → Data cleaning and preparation
@@ -29,27 +27,33 @@ pip install pandas scikit-learn streamlit
 - prediction          → Generating predictions on new data
 - ui                  → Basic, easy to learn front-end interface, uses basic python code, no HTML/CSS/JS needed
 
+##Repo Structure
 ```bash
-## Repo Structure
-
 SIH-2025_Prototype/
 │
 ├── data/                     # Raw and processed datasets
 │   ├── attendance.csv
-│   └── scores.csv
+│   ├── scores.csv            # examples
+│   └── data files/           # For code to generate synthetic data
+│       └── generate_data.py
 │
 ├── data_management/          # Python scripts for cleaning and preparing data
-│   └── clean_merge.py
+│   └── data_management.py
 │
-├── model/                    # ML model training scripts
-│   └── train_model.py
+├── model_training/           # ML model training scripts
+│   └── model_training.py
 │
 ├── prediction/               # Scripts to generate predictions on new data
-│   └── predict.py
+│   └── prediction.py
 │
 ├── ui/                       # Optional Streamlit UI
-│   └── app.py
+│   └── ui.py
 │
-└── README.md                 # Project instructions, workflow, and team info
+└── README.md                 # Project information, workflow, instructions
+│
+└── requirements.txt          # Has the requirements (libraries and tools) to be installed
+│
+└── main.py                   # The master code file, which calls the other modules and functions in it
+            
 
 ```
