@@ -30,24 +30,15 @@ The core functionality focuses on **predicting dropout risk** for students based
 ##Repo Structure
 ```bash
 SIH-2025_Prototype/
-│
-├── data/                     # Raw and processed datasets
-│   ├── attendance.csv
-│   ├── scores.csv            # examples
-│   └── data files/           # For code to generate synthetic data
-│       └── generate_data.py
-│
+
 ├── data_management/          # Python scripts for cleaning and preparing data
-│   └── data_management.py
+│   └── data_transformation.py
 │
 ├── model_training/           # ML model training scripts
 │   └── model_training.py
 │
 ├── prediction/               # Scripts to generate predictions on new data
 │   └── prediction.py
-│
-├── ui/                       # Optional Streamlit UI
-│   └── ui.py
 │
 └── README.md                 # Project information, workflow, instructions
 │
