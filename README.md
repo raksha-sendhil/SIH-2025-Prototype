@@ -25,7 +25,6 @@ The core functionality focuses on **predicting dropout risk** for students based
 - data-management     → Data cleaning and preparation
 - model-training      → ML model development and training
 - prediction          → Generating predictions on new data
-- ui                  → Basic, easy to learn front-end interface, uses basic python code, no HTML/CSS/JS needed
 
 ##Repo Structure
 ```bash
