@@ -22,28 +22,4 @@ The core functionality focuses on **predicting dropout risk** for students based
 
 ## Branches
 - main                → Stable branch for approved code
-- data-management     → Data cleaning and preparation
-- model-training      → ML model development and training
-- prediction          → Generating predictions on new data
 
-##Repo Structure
-```bash
-SIH-2025_Prototype/
-
-├── data_management/          # Python scripts for cleaning and preparing data
-│   └── data_transformation.py
-│
-├── model_training/           # ML model training scripts
-│   └── model_training.py
-│
-├── prediction/               # Scripts to generate predictions on new data
-│   └── prediction.py
-│
-└── README.md                 # Project information, workflow, instructions
-│
-└── requirements.txt          # Has the requirements (libraries and tools) to be installed
-│
-└── main.py                   # The master code file, which calls the other modules and functions in it
-            
-
-```
